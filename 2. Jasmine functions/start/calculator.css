@@ -1,0 +1,41 @@
+html,
+body {
+  margin: 0;
+  width: 1024px;
+}
+header {
+  background: lightseagreen;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+}
+header > h1 {
+  color: white;
+  text-align: center;
+}
+section {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+#values {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#values .input-value {
+  margin: 0.5rem;
+}
+#buttons button {
+  padding: 8px;
+  border-radius: 4px;
+  margin: 6px 4px;
+  width: 52px;
+}
+
+input {
+  border-radius: 4px;
+}
